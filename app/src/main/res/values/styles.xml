@@ -21,4 +21,19 @@
 
     </style>
 
+    <!-- the theme applied to the application or activity -->
+    <style name="NewTheme" parent="android:Theme.Holo.Wallpaper">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
 </resources>
